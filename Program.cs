@@ -30,7 +30,6 @@ namespace MathOps
             var multiplication = Multiply(operand1, operand2);
             var division = Division(operand1, operand2);
             var remainder = Remainder(operand1, operand2);
-
             ShowResults(operand1, operand2, sum, difference, multiplication, division, remainder);
         }
     }
